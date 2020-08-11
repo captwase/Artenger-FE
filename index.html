@@ -52,8 +52,12 @@
                     
                 </div>  
                 <div class="btn-group">
+                    <a href="./login.html">
                     <button type="button" class="btn btn-primary">Login</button>
-                    <button type="button" class="btn btn-primary">Signin</button>
+                    </a>
+                    <a href="./signup.html">
+                    <button type="button" class="btn btn-primary">Signup</button>
+                    </a>
                 </div>                                   
             </nav>
             <section class="header-section">
@@ -70,24 +74,97 @@
     </div>
     <!-- end header area -->
 
-    <!-- main site area -->
-    <main class="main-area">
+    <div class="container">
+            <section class="grid-section" id='products'>
+                    <div class='row'>
+                        <div class='col-md-4 text-xs-center'>
+                            <div class='card'>
+                                <img src='./assets/images/picsprodpainting2.jpg' class='img-fluid'>
+                                <div class='card-block'>
+                                    <p class='card-text'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-4 text-xs-center'>
+                            <div class='card'>
+                                <img src='./assets/images/picsprodpainting2.jpg' class='img-fluid'>
+                                <div class='card-block'>
+                                  <p class='card-text'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-4 text-xs-center'>
+                            <div class='card'>
+                                <img src='./assets/images/picsprodpainting2.jpg' class='img-fluid'>
+                                <div class='card-block'>
+                                  <p class='card-text'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-4 text-xs-center'>
+                            <div class='card'>
+                                <img src='./assets/images/picsprodpainting2.jpg' class='img-fluid'>
+                                <div class='card-block'>
+                                  <p class='card-text'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-4 text-xs-center'>
+                            <div class='card'>
+                                <img src='./assets/images/picsprodpainting2.jpg' class='img-fluid'>
+                                <div class='card-block'>
+                                  <p class='card-text'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-4 text-xs-center'>
+                            <div class='card'>
+                                <img src='./assets/images/picsprodpainting2.jpg' class='img-fluid'>
+                                <div class='card-block'>
+                                  <p class='card-text'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+    </div>
 
-        <!-- Banner area 
-        <section class="banner-area">
-            <div class="container-fluid">
-                <div class="banner">
-                    <img src="" alt="banner-area" class="fluid">
+
+        <div class="carousel slide" data-ride="carousel" id="multi_item">
+            <div class="carousel-inner mr-auto">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="1 slide"></div>
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="2 slide"></div>          
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="3 slide"></div>
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="4 slide"></div>
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="5 slide"></div>
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="5 slide"></div>
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="5 slide"></div>
+                        
+                    </div>
                 </div>
-                <div class="banner-title text-center">
-                    <h1 class="text-lg text-light">Artenger</h1>
-                    <span class="description text-sm text-light">The Power of Wordpress</span>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="6 slide"></div>
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="7 slide"></div>
+                        <div class="col-sm"><img class="d-block w-100" src="./assets/images/prodpainting.jpg" alt="8 slide"></div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- End Banner area -->
-
-        <!-- end main site area -->
+            <a class="carousel-control-prev" href="#multi_item" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#multi_item" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+      
+    
 
     <!-- footer area -->
     <footer class="footer-section" id="footerfdiv">
@@ -150,16 +227,23 @@
     
     <!-- end footer area -->
 
+
     <!-- Include bootstrap Script file -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- Include jquery Script file -->
     <script src="./vendor/js/jquery-3.5.1.js"></script>
 
      <!-- Custom Script file -->
     <script src="./assets/js/main.js"></script>
+
+    <!-- Include Bootstrap.min.js -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+        
 
 </body>
 </html>
